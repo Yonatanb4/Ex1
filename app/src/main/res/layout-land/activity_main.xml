@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.yonatan.ex1.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+
+        <ListView
+            android:id="@+id/dateAndTimeListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+            android:layout_gravity="left"/>
+
+
+
+
+        <ListView
+            android:id="@+id/contactsListView"
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+            android:layout_gravity="left" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/send"/>
+
+        <EditText
+            android:id="@+id/sendNewMessageET"
+            android:layout_width="100dp"
+            android:hint="@string/write_a_message"
+            android:textSize="11sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/nameOfSender"
+            android:layout_width="100dp"
+            android:hint="@string/write_you_re_name"
+            android:textSize="11sp"
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+
+    </TableRow>
+
+</LinearLayout>
