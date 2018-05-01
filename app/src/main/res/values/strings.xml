@@ -3,4 +3,7 @@
     <string name="write_a_message">Write a message</string>
     <string name="send">send</string>
     <string name="write_you_re_name">Write you\'re name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
